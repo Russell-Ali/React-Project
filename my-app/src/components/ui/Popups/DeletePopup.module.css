@@ -1,0 +1,55 @@
+body {
+  font-family: sans-serif;
+}
+.button > button {
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #77002e;
+  border: 2px solid #77002e;
+  background-color: transparent;
+  padding: 0.5rem 1.5rem;
+  border-radius: 6px;
+  margin: 0 1rem;
+  width: 12rem;
+  position: absolute;
+}
+.heading {
+  font-size: 2rem;
+  position: absolute;
+  display: block;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+}
+.button {
+  z-index: -50;
+  width: 40%;
+  height: 10rem;
+  background-color: white;
+  border-radius: 16px;
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: calc(50% - 0.5rem);
+  transform: translate(-50%, -50%);
+}
+.yes {
+  display: inline-block;
+  top: 55%;
+  left: 50%;
+  transform: translateX(-15rem);
+}
+.no {
+  display: inline-block;
+  top: 55%;
+  left: 50%;
+  transform: translateX(1rem);
+}
+.popup {
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+}
